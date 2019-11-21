@@ -1,4 +1,4 @@
-// 创建画布
+﻿// 创建画布
 var canvas = document.createElement("canvas");
 var ctx = canvas.getContext("2d");
 canvas.width = 512;
@@ -24,11 +24,11 @@ heroImage.src = "images/1.jpg";
 var heroImage1 = new Image();
 heroImage1.src = "images/1.jpg";
 var heroImage2 = new Image();
-heroImage2.src = "images/2.jpg";
+heroImage2.src = "images/3.jpg";
 var heroImage3 = new Image();
-heroImage3.src = "images/3.jpg";
+heroImage3.src = "images/4.jpg";
 var heroImage4 = new Image();
-heroImage4.src = "images/4.jpg";
+heroImage4.src = "images/2.jpg";
 
 // 载入怪兽图像
 var monsterReady = false;
